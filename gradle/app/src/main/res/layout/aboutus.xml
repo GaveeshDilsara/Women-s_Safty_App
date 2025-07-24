@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="About Us"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp"
+            android:padding="16dp"
+            android:text="At Her Guardian, our mission is simple yet profound: to empower and protect women in their daily lives. We understand that safety is a fundamental right, and our app is designed to provide peace of mind and security to women everywhere.\n\nFounded on the principles of innovation and compassion, Her Guardian is more than just an app—it's a trusted companion for women on the go. Whether you’re commuting, traveling, or simply out and about, Her Guardian is there to ensure you feel safe and connected.\n\nOur app offers a suite of features, including real-time location tracking, emergency alerts, and instant communication with loved ones, all tailored to meet the unique needs of women in today’s world. We believe that by harnessing the power of technology, we can create a safer environment where every woman can thrive with confidence.\n\nJoin us on our journey to build a safer world, one where women can move freely without fear, knowing that Her Guardian is always by their side."
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:justificationMode="inter_word" />
+
+</LinearLayout>

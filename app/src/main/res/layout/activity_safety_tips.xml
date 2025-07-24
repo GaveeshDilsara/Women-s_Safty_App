@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".SafetyTips"
+    android:layout_marginTop="50sp">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/tips"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Text Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:text="Safety Tips"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:text="Discover essential safety tips tailored for women, offering practical advice to stay secure in various situations."
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Safety Tips Information -->
+        <TextView
+            android:text="Tips"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tip1TextView"
+            android:text="1. **Stay Aware of Your Surroundings**: Always be mindful of your environment, especially in unfamiliar areas."
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tip2TextView"
+            android:text="2. **Trust Your Instincts**: If something doesn’t feel right, trust your gut feelings and take action."
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tip3TextView"
+            android:text="3. **Have a Safety Plan**: Prepare a plan for emergencies, including knowing the location of the nearest exits and keeping your phone accessible."
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tip4TextView"
+            android:text="4. **Avoid Distractions**: Stay off your phone and avoid distractions when walking alone, especially in potentially unsafe areas."
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tip5TextView"
+            android:text="5. **Use Well-Lit Routes**: Stick to well-lit and populated areas when walking, especially at night, to minimize the risk of encountering danger."
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

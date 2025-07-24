@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/container_background">
+
+    <TextView
+        android:id="@+id/contactTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Contact Name"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#0000ff"
+        android:padding="4dp"
+        android:minWidth="60dp"/>
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#0000ff"
+        android:padding="4dp"
+        android:minWidth="60dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+
+</LinearLayout>
